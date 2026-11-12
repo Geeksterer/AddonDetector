@@ -22,7 +22,35 @@
 
 ### Method 1: Download from Releases (Recommended)
 1. Look at the right-hand sidebar of this GitHub page and click on **Releases**.
-2. Download the latest `AddonDetector.zip` file from the **Assets** dropdown.
+2. Download the latest `AddonDetector.zip` file from the **Assets** section.
 3. Extract the `AddonDetector` folder into your WoW addons directory:
-   ```text
-   World of Warcraft\Interface\AddOns\AddonDetector
+   `World of Warcraft\Interface\AddOns\AddonDetector`
+4. Restart World of Warcraft or type `/reload` in-game.
+
+### Method 2: Download via the Green "Code" Button
+1. At the top right of this repository page, click the green **`<> Code`** button.
+2. Click **Download ZIP** at the bottom of the dropdown menu.
+3. Open the downloaded `.zip` file and extract the folder into your `World of Warcraft\Interface\AddOns\` directory.
+4. **Important:** Rename the extracted folder from `AddonDetector-main` (or `AddonDetector-master`) to **`AddonDetector`** so the game client can load it properly:
+   `World of Warcraft\Interface\AddOns\AddonDetector`
+5. Restart World of Warcraft or type `/reload` in-game.
+
+---
+
+## How to Use
+
+1. **Open the Detector Window:**
+   * **Left-Click** the spyglass button on your minimap (**Left-Drag** to move it around the minimap ring), **OR**
+   * Type `/ad` or `/addondetector` in chat.
+2. **Start Scanning:**
+   * Click the **Check** button inside the AddonDetector window.
+   * Move your mouse cursor over any UI panel, bar, icon, or WeakAura on your screen. The window will dynamically list every addon detected under your cursor.
+3. **Stop Scanning:**
+   * Click the **Stop** button to pause detection while keeping the window open, or click the **`X`** button in the top-right corner to close the window and automatically stop scanning.
+
+---
+
+## Slash Commands
+
+* `/ad` — Toggle the AddonDetector window open or closed.
+* `/addondetector` — Toggle the AddonDetector window open or closed.
