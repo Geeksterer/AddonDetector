@@ -1,0 +1,7 @@
+## Interface: 30300
+## Title: AddonDetector
+## Notes: Detects and lists the addon(s) owning any UI elements currently under the cursor.
+## Author: Copper
+## Version: 1.0.0
+
+AddonDetector.lua
